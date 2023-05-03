@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1151px) {
+    .square .main_block .flex_container{
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    header nav ul li{
+        margin-left: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 771px) {
+    header nav ul li a{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+header nav{
+    display: none;
+}
+}
+@media only screen and (max-width: 579px) {
+    .main_banner  h1, p{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1424px) {
+    .square .flex_container article{
+        margin: auto;
+        position: relative;
+    }
+    .square .flex_container article .content_1{
+position: absolute;
+left: 70px;
+max-width: 60%;
+}
+}
+@media only screen and (max-width: 1424px) {
+    .square .flex_container article img{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+}

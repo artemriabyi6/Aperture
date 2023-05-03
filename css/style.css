@@ -435,14 +435,14 @@ padding-bottom: 11px;
 padding-right: 11px;
 }
 .square{
- background: #000000;
-border-radius: 0px;
-padding-top: 113px;
- padding-bottom: 113px;
- padding-left: 136px;
+    background-color: #000000;
+    padding: 113px 136px 100px 136px;
 }
-.square h2{
- margin: auto;
+.square .main_block{
+    max-width: 1168px;
+    margin: auto;
+}
+.square .main_block h2{
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -452,8 +452,7 @@ text-align: center;
 color: #FFFFFF;
 margin-bottom: 15px;
 }
-.square p{
-margin: auto;
+.square .main_block p {
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -463,22 +462,269 @@ text-align: center;
 color: #C0C0C0;
 margin-bottom: 42px;
 }
-.flex_container{
+.square .main_block .flex_container{
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+}
+.square .main_block .flex_container .laptop{
+    max-width: 576px;
+    position: relative;
+}
+.square .main_block .flex_container .laptop .content_1{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    max-width: 501px;
+}
+.laptop .content_1 h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.laptop .content_1 p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #C0C0C0;
+}
+.laptop .content_1 a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 11px 11px 11px 40px;
+    text-decoration: none;
+    border-radius: 14px; 
+}
+.square .triangle{
+    max-width: 576px;
+    position: relative;
+}
+.triangle .content_2{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    max-width: 501px;
+}
+.triangle .content_2 h4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.triangle .content_2  p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #C0C0C0;
+}
+.triangle .content_2 a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 11px 11px 11px 40px;
+    text-decoration: none;
+    border-radius: 14px; 
+}
+.square .forest{
+    max-width: 576px;
+    position: relative
+}
+.forest .content_3{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    max-width: 501px;
+}
+.forest .content_3 h4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.forest .content_3 p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #C0C0C0;
+}
+.forest .content_3 a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 11px 11px 11px 40px;
+    text-decoration: none;
+    border-radius: 14px; 
+}
+.square .deer{
+    max-width: 576px;
+    position: relative
+}
+.deer .content_4{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    max-width: 501px;
+}
+.deer .content_4 h4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.deer .content_4 p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #C0C0C0;
+}
+.deer .content_4 a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 11px 11px 11px 40px;
+    text-decoration: none;
+    border-radius: 14px; 
+}
+footer{
+    background-color: #000000;
+    padding: 100px 136px 100px 136px;
+}
+footer .container{
+    margin: auto;
+    position: relative;
+    padding-bottom: 36px;
+}
+ 
+
+.container p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+color: #C0C0C0;
+margin-bottom: 200px;
+}
+footer .list{
+    display: flex;
+    padding-right: 102px;
+    padding-left: 710px;
+    padding-bottom: 36px;
+    position: absolute;
+    top: 0px;
+    right: 102px;
+}
+footer .list ul li:first-of-type{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #C0C0C0;
+}
+footer .list ul li{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+list-style: none;
+margin-bottom: 10px;
+}
+footer .list ul li:last-of-type{
+    margin-bottom: 78px;
+}
+footer .subscribe_to{
+    padding-top: 36px;
+    position: relative;
+}
+footer .subscribe_to h5{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+footer .subscribe_to p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 36px;
+}
+.subscribe_to .loading{
+height: 52px;
+width: 458px ;
+background-color: #FFFFFF;
+border-radius: 12px;
+position: absolute;
+right: 0px;
+top: 36px;
+bottom: 36px;
+}
+.container .last{
+    padding-top: 56px;
+    display: flex;
     justify-content: space-between;
 }
-.square .logo_1{
-max-width: 576px;
-min-height: 600px;
-background-size: cover;
-background-image: url(../images/square1.jpg);
-position: relative;
+.container .last ul{
+    display: flex;
 }
-.square .content_1{
-    position: absolute;
-    bottom: 30;
-    left: 30;
+.container .last ul li{
+    margin-right: 20px;
 }
-   
-
-
