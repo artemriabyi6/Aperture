@@ -2,7 +2,7 @@
 .need-help .container p a, .tools .tools-wrapper .tools-description a, .gallery .container .gallery-wrap article .article-content a {
   color: #000;
   text-align: center;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -13,6 +13,10 @@
   text-decoration: none;
   padding: 0px 10px 10px 18px;
   display: inline-block;
+  transition: 0.2s ease-in-out;
+}
+.need-help .container p a:hover, .tools .tools-wrapper .tools-description a:hover, .gallery .container .gallery-wrap article .article-content a:hover {
+  background-color: cadetblue;
 }
 .need-help .container p a::before, .tools .tools-wrapper .tools-description a::before, .gallery .container .gallery-wrap article .article-content a::before {
   content: "";
@@ -90,12 +94,12 @@ header .container nav ul li:last-of-type a:hover {
   background-image: url(../images/100vh.jpg);
   background-size: cover;
   display: flex;
-  height: calc(100vh - 32px);
+  height: 716px;
   flex-direction: column;
   justify-content: flex-end;
 }
 .fullscreen .container {
-  height: calc(100vh - 232px);
+  height: 716px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -288,6 +292,7 @@ header .container nav ul li:last-of-type a:hover {
 }
 .tools .tools-wrapper .tools-photo img {
   width: 100%;
+  height: 100%;
 }
 
 .plants {
@@ -377,6 +382,13 @@ header .container nav ul li:last-of-type a:hover {
   justify-content: space-between;
   align-items: center;
 }
+.past-clients .container .icons_flex ul li a {
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+}
+.past-clients .container .icons_flex ul li a:hover {
+  transform: scale(1.1, 1.1);
+}
 
 .need-help {
   background-color: #000;
@@ -413,6 +425,14 @@ footer .container .logo-wrapper {
   padding-bottom: 36px;
   border-bottom: 1px solid white;
 }
+footer .container .logo-wrapper .logo-text p {
+  color: #C0C0C0;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
 footer .container .logo-wrapper .lists {
   display: flex;
 }
@@ -444,6 +464,10 @@ footer .container .logo-wrapper .lists ul li a {
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+  transition: 0.2s ease-in-out;
+}
+footer .container .logo-wrapper .lists ul li a:hover {
+  color: cadetblue;
 }
 footer .container .form-flex {
   display: flex;
@@ -470,12 +494,19 @@ footer .container .form-flex .form-description p {
   font-weight: 400;
   line-height: 20px;
 }
+footer .container .form-flex .form {
+  width: 39.5%;
+}
 footer .container .form-flex .form form input {
-  width: 460px;
+  width: 100%;
   height: 52px;
+  padding-left: 20px;
   border-radius: 12px;
   border: 1px solid #E5E7EB;
   background: #F9FAFB;
+  background-image: url(../images/Rectangle.svg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 footer .container .footer-links {
   padding: 56px 0 0 0;
@@ -493,7 +524,12 @@ footer .container .footer-links .links-text p {
 }
 footer .container .footer-links .links-social-media a {
   margin-right: 20px;
+  transition: 0.2s ease-in-out;
+  display: inline-block;
 }
 footer .container .footer-links .links-social-media a:last-of-type {
   margin-right: 0;
+}
+footer .container .footer-links .links-social-media a:hover {
+  transform: scale(1.1, 1.1);
 }
