@@ -99,6 +99,9 @@
 
 
 @media (max-width: 767px) {
+     header .container .header-logo {
+        padding-left: 10px;
+     }
     header .container nav{
         display: none;
     }
