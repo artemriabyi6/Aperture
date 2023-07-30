@@ -539,6 +539,7 @@ footer{
             .form{
                 width: 39.5%;
                 form{
+                    position: relative;
                     input{
                         width: 100%;
                         height: 52px;
@@ -546,10 +547,14 @@ footer{
                         border-radius: 12px;
                         border: 1px solid #E5E7EB;
                         background: #F9FAFB;
-                        background-image: url(../images/Rectangle.svg);
-                        background-repeat: no-repeat;
-                        background-position: right;
-                        
+                       
+                    }
+                    button{
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        cursor: pointer;
+                        border: none;
                     }
                 }
             }
